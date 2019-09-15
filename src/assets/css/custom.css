@@ -1,0 +1,196 @@
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.btn-add {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.btn-add:hover {
+        background-color: #2196F3;
+        color:#fff;
+}
+
+.btn-outline-points {
+    color: #000;
+    border-color: #e1e1e1;
+}
+
+.vote-wrapper {
+    width: 500px;
+}
+
+.vote-point-wrapper {
+    border-radius: 10px;
+    width:  calc( 100% - 20rem );
+    height: 80px;
+    float: left;
+    background: #f3f3f3;
+}
+
+.vote-btn-group {
+    padding: 15px 0px 0px 0px;
+}
+
+.vote-btn-group a {
+    font-size: 12px;
+    color: #b3b3bb;
+    text-decoration: none;
+}
+
+.vote-btn-group a:first-child {
+    float: left;
+}
+
+.vote-btn-group a:last-child {
+    float: right;
+}
+
+.submit-link-wrapper span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.submit-link-wrapper .submit-link-btn {
+    padding: 5px 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    background: #f3f3f3;
+}
+
+.router-link-active:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.btn-submit i {
+    padding: 10px
+}
+.router-link-active {
+    color:red;
+}
+.list-group-item{
+    border: none;
+}
+
+.link-item {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.link-item span:first-child {
+    font-size: 32px;
+    display: block;
+}
+
+.link-item span:last-child {
+    font-size: 12px;
+    display: block;
+    margin-top: -5px;
+}
+
+.link-item .link-group {
+    float: left;
+    width: calc( 100% - 6rem - 3rem * .5 );
+}
+
+.link-item .link-group p {
+    margin: 0;
+}
+
+.link-item .link-group .link-title {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.pagination .page-item.active .page-link {
+    background: #fff;
+}
+
+.pagination .page-item .page-link {
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.pagination .page-item .page-link.active {
+    border: 1px solid #e1e1e1;
+}
+
+
+.add-link-wrapper {
+    width: 500px;
+}
+
+.form-control {
+    border-color: #000;
+}
+
+.form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #33C3F0;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #e6e6e6;
+}
+
+.current {
+    color: red;
+  }
+
+  .color-success {
+    color: #8ad429;
+}
+
+.color-danger{
+    color:red;
+}
+
+  .list-group-item:hover .link-group .link-remove {
+    display: block;
+}
+
+
+  .list-group-item .link-group .link-remove {
+    display: none;
+    position: absolute;
+    right: -17px;
+    top: -13px;
+}
+  .list-group-item .link-group .link-remove button {
+    color: #ca1717;
+}
+
+.paginate-nav-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pagination-indicator {
+    display: inline-block;
+    min-width: 50px;
+    padding: 5px;
+}
+.page-link {
+    margin-left: 0px;
+ 
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
